@@ -1,5 +1,6 @@
 # Google Search Filters userScript
 An userScript for restoring the good old search filters.
+**Feel free to improve the script and make pull requests.**
 
 ## Requirements
 ### UserScript (Google Search Filters Script)
