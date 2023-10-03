@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Old Google Search Filters Restorer
 // @namespace    AngelBruni
-// @version      0.1
+// @version      1.0
 // @description  Restores the correct search filters (All, Images, Videos, etc...) to Old Google 2013.
 // @author       AngelBruni
 // @match        https://www.google.com/search*
+// @run-at       document-body
 // @grant        none
 // ==/UserScript==
 
