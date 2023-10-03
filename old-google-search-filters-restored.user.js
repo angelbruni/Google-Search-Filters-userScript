@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Old Google Search Filters Restorer
 // @namespace    AngelBruni
-// @version      1.0
+// @version      1.0.1
 // @description  Restores the correct search filters (All, Images, Videos, etc...) to Old Google 2013.
-// @author       AngelBruni
+// @author       @angelbruni
 // @match        https://www.google.com/search*
 // @run-at       document-body
 // @grant        none
@@ -18,7 +18,7 @@ function addDefaultStyle() {
         #bruniSidebarContainer {
             position: fixed;
             background-color: white;
-            z-index: 130;
+            z-index: 1;
         }
         #bruniWarning {
             color: red;
@@ -34,7 +34,7 @@ function addDefaultStyle() {
             text-decoration: underline;
         }
         #bruniSidebarHeader, #bruniFiltersContainer, #bruniToolsContainer {
-            display: none; /* !!! RESTORE HIDDEN ELEMENTS DUE TO NO THEME WARING !!! */
+            display: none;
         }
     `;
 
